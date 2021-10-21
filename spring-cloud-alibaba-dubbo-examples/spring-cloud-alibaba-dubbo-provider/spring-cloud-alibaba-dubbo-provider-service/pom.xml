@@ -15,6 +15,7 @@
         <spring-boot-stater-web.version>2.5.5</spring-boot-stater-web.version>
         <spring-cloud-stater-openfeign.version>2.2.6.RELEASE</spring-cloud-stater-openfeign.version>
         <spring-boot-stater-actuator.version>2.5.5</spring-boot-stater-actuator.version>
+        <spring-cloud-alibaba-nacos.version>0.2.2.RELEASE</spring-cloud-alibaba-nacos.version>
 
         <dubbo.version>2.6.6</dubbo.version>
     </properties>
@@ -45,6 +46,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
             <version>${spring-boot-stater-actuator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>${spring-cloud-alibaba-nacos.version}</version>
         </dependency>
 
         <!-- Dubbo -->
